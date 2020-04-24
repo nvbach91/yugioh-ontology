@@ -24,6 +24,7 @@
         <dc:subject xml:lang="en">Trading Card Game, Tournament, Ontology, Semantic SEO, RDFa, Linked Data, RDF, Semantic Web</dc:subject>
         <dc:title xml:lang="en">Yu-Gi-Oh! TCG Ontology</dc:title>
         <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-24</dcterms:created>
+        <dcterms:publisher>University of Economics, Prague, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering</dcterms:publisher>
         <dcterms:license>https://creativecommons.org/licenses/by/3.0/</dcterms:license>
         <vann:preferredNamespacePrefix>ygo</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://ontology.ethereal.cz/ygo#</vann:preferredNamespaceUri>
