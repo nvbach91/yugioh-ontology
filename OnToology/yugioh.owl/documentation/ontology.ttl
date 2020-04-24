@@ -1,0 +1,1343 @@
+@prefix : <http://ontology.ethereal.cz/ygo#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://ontology.ethereal.cz/ygo> .
+
+<http://ontology.ethereal.cz/ygo> rdf:type owl:Ontology ;
+                                   owl:versionIRI <https://w3id.org/def/YuGiOhTCGOntology> ;
+                                   <http://purl.org/dc/elements/1.1/abstract> "Abstract: The Yu-Gi-Oh! Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
+                                   <http://purl.org/dc/elements/1.1/contributor> "Vojtěch Svátek" ;
+                                   <http://purl.org/dc/elements/1.1/creator> "Nguyen Viet Bach" ;
+                                   <http://purl.org/dc/elements/1.1/description> "The Yu-Gi-Oh! Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."@en ;
+                                   <http://purl.org/dc/elements/1.1/subject> "Trading Card Game, Tournament, Ontology, Semantic SEO, RDFa, Linked Data, RDF, Semantic Web"@en ;
+                                   <http://purl.org/dc/elements/1.1/title> "Yu-Gi-Oh! TCG Ontology"@en ;
+                                   <http://purl.org/dc/terms/created> "2020-04-24"^^xsd:date ;
+                                   <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/3.0/" ;
+                                   <http://purl.org/dc/terms/publisher> "University of Economics, Prague, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering" ;
+                                   <http://purl.org/vocab/vann/preferredNamespacePrefix> "ygo" ;
+                                   <http://purl.org/vocab/vann/preferredNamespaceUri> "http://ontology.ethereal.cz/ygo#" ;
+                                   <http://schema.org/image> "http://ontology.ethereal.cz/src/ygo-ontology.png"^^xsd:anyURI ;
+                                   rdfs:label "Yu-Gi-Oh! TCG Ontology"@en ;
+                                   owl:versionInfo "Version 1.0.5, Release 2020 Apr 24"@en .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/abstract
+<http://purl.org/dc/elements/1.1/abstract> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/subject
+<http://purl.org/dc/elements/1.1/subject> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> rdf:type owl:AnnotationProperty .
+
+
+###  http://schema.org/image
+<http://schema.org/image> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2002/07/owl#versionIRI
+owl:versionIRI rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://ontology.ethereal.cz/ygo#hasEdition
+:hasEdition rdf:type owl:ObjectProperty ;
+            rdfs:domain :Card ;
+            rdfs:range :Card_Edition ;
+            rdfs:label "has edition"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#hasMonsterAbility
+:hasMonsterAbility rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Monster_Card ;
+                   rdfs:range :Monster_Ability ;
+                   rdfs:label "has monster ability"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#hasMonsterAttribute
+:hasMonsterAttribute rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Monster_Card ;
+                     rdfs:range :Monster_Attribute ;
+                     rdfs:label "has monster attribute"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#hasMonsterCategory
+:hasMonsterCategory rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Monster_Card ;
+                    rdfs:range :Monster_Category ;
+                    rdfs:label "has monster category"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#hasMonsterType
+:hasMonsterType rdf:type owl:ObjectProperty ;
+                rdfs:domain :Monster_Card ;
+                rdfs:range :Monster_Type ;
+                rdfs:label "has monster type"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#hasRarity
+:hasRarity rdf:type owl:ObjectProperty ;
+           rdfs:domain :Card ;
+           rdfs:range :Card_Rarity ;
+           rdfs:label "has rarity"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#hasTournamentFormat
+:hasTournamentFormat rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Tournament ;
+                     rdfs:range :Tournament_Format ;
+                     rdfs:label "has tournament format"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#hasTournamentLevel
+:hasTournamentLevel rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Tournament ;
+                    rdfs:range :Tournament_Level ;
+                    rdfs:label "has tournament level"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#isPartOfMatch
+:isPartOfMatch rdf:type owl:ObjectProperty ;
+               rdfs:domain :Duel ;
+               rdfs:range :Match ;
+               rdfs:label "is part of match"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#isPartOfTournament
+:isPartOfTournament rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Match ;
+                    rdfs:range :Tournament ;
+                    rdfs:label "is part of tournament"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#isUsedInDeck
+:isUsedInDeck rdf:type owl:ObjectProperty ;
+              rdfs:domain :Card ;
+              rdfs:range :Deck ;
+              rdfs:label "is used in deck"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#participatedInTournament
+:participatedInTournament rdf:type owl:ObjectProperty ;
+                          rdfs:domain :Duelist ;
+                          rdfs:range :Tournament ;
+                          rdfs:label "participated in tournament"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#playedAgainst
+:playedAgainst rdf:type owl:ObjectProperty ;
+               rdfs:domain :Duelist ;
+               rdfs:range :Duelist ;
+               rdfs:label "played against"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#playedInDuel
+:playedInDuel rdf:type owl:ObjectProperty ;
+              rdfs:domain :Duelist ;
+              rdfs:range :Duel ;
+              rdfs:label "played in duel"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#playedInMatch
+:playedInMatch rdf:type owl:ObjectProperty ;
+               rdfs:domain :Duelist ;
+               rdfs:range :Match ;
+               rdfs:label "played in match"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#usesDeck
+:usesDeck rdf:type owl:ObjectProperty ;
+          rdfs:domain :Duelist ;
+          rdfs:range :Deck ;
+          rdfs:label "uses deck"@en .
+
+
+###  http://ontology.ethereal.cz/ygo/tookPlaceAt
+<http://ontology.ethereal.cz/ygo/tookPlaceAt> rdf:type owl:ObjectProperty ;
+                                              rdfs:domain <http://dublincore.org/2012/06/14/dctype#Event> ;
+                                              rdfs:range :Venue ;
+                                              rdfs:comment "the place where the tournament or game is held"@en ;
+                                              rdfs:label "took place at"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://ontology.ethereal.cz/ygo#ATK
+:ATK rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Monster_Card ;
+     rdfs:range xsd:integer ;
+     rdfs:comment "The ATK (attack) points of a Monster."@en ;
+     rdfs:label "ATK"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#DEF
+:DEF rdf:type owl:DatatypeProperty ;
+     rdfs:domain :Monster_Card ;
+     rdfs:range xsd:integer ;
+     rdfs:comment "The DEF (defense) points of a Monster."@en ;
+     rdfs:label "DEF"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#cardArchetype
+:cardArchetype rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Card ;
+               rdfs:comment "The archetype of a card"@en ;
+               rdfs:label "card archetype"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#cardCount
+:cardCount rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Deck ;
+           rdfs:range xsd:integer ;
+           rdfs:comment "The total number of Cards in a Deck."@en ;
+           rdfs:label "card count"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#cardDescription
+:cardDescription rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Card ;
+                 rdfs:comment "The Card Text of Card Description of a Card."@en ;
+                 rdfs:label "card description"@en ,
+                            "card text"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#cardImage
+:cardImage rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Card ;
+           rdfs:range xsd:anyURI ;
+           rdfs:comment "An URL refering to a visualisation of the Card."@en ;
+           rdfs:label "card image"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#cardLimit
+:cardLimit rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Card ;
+           rdfs:range xsd:integer ;
+           rdfs:comment "The number of Cards allowed in a Deck"@en ;
+           rdfs:label "card limit"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#cardName
+:cardName rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Card ;
+          rdfs:comment "The name of the Card"@en ;
+          rdfs:label "card name"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#cardSeriesNumber
+:cardSeriesNumber rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Card ;
+                  rdfs:range xsd:integer ;
+                  rdfs:comment "The unique identificator number of a Card."@en ;
+                  rdfs:label "card series number"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#cardSet
+:cardSet rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Card ;
+         rdfs:comment "The name of the card set which a Card comes from."@en ;
+         rdfs:label "card set"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#cossyID
+:cossyID rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Duelist ;
+         rdfs:range xsd:integer ;
+         rdfs:comment "The Cossy ID of a Duelist."@en ;
+         rdfs:label "Cossy ID"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#deckArchetype
+:deckArchetype rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Deck ;
+               rdfs:comment "The archetype of a Deck"@en ;
+               rdfs:label "deck archetype"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#deckRating
+:deckRating rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Deck ;
+            rdfs:range xsd:integer ;
+            rdfs:comment "The rating of a Deck. Usually determined by its strengths."@en ;
+            rdfs:label "deck rating"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#duelResult
+:duelResult rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Duel ;
+            rdfs:range xsd:string ;
+            rdfs:comment "A duel result. Either DRAW or Regular Win-Lose"@en ;
+            rdfs:label "duel result"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#duelistRanking
+:duelistRanking rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Duelist ;
+                rdfs:range xsd:integer ;
+                rdfs:comment "The ranking of a Duelist"@en ;
+                rdfs:label "duelist ranking"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#level
+:level rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Monster_Card ;
+       rdfs:range xsd:integer ;
+       rdfs:comment "The Level of a Monster"@en ;
+       rdfs:label "level"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#linkRating
+:linkRating rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Monster_Card ;
+            rdfs:range xsd:integer ;
+            rdfs:comment "The Link ranking of a Link Monster"@en ;
+            rdfs:label "link ranking"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#matchResult
+:matchResult rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Match ;
+             rdfs:range xsd:string ;
+             rdfs:comment "A match result. Either DRAW or Regular Win-Lose."@en ;
+             rdfs:label "match result"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#monsterRank
+:monsterRank rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Monster_Card ;
+             rdfs:range xsd:integer ;
+             rdfs:comment "The rank of a monster"@en ;
+             rdfs:label "monster rank"@en .
+
+
+###  http://ontology.ethereal.cz/ygo/venue_address
+<http://ontology.ethereal.cz/ygo/venue_address> rdf:type owl:DatatypeProperty ;
+                                                rdfs:domain :Venue ;
+                                                rdfs:range xsd:string ;
+                                                rdfs:comment "The address or location of the venue"@en ;
+                                                rdfs:label "venue address"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://dbpedia.org/ontology/Place
+<http://dbpedia.org/ontology/Place> rdf:type owl:Class .
+
+
+###  http://dublincore.org/2012/06/14/dctype#Event
+<http://dublincore.org/2012/06/14/dctype#Event> rdf:type owl:Class .
+
+
+###  http://ontology.ethereal.cz/ygo#Card
+:Card rdf:type owl:Class ;
+      rdfs:subClassOf owl:Thing ;
+      rdfs:comment "There are three main types of cards: Monster, Spell, and Trap."@en ;
+      rdfs:label "Card"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#Card_Edition
+:Card_Edition rdf:type owl:Class ;
+              rdfs:subClassOf owl:Thing ;
+              rdfs:comment "The editions of cards. usually determined by the time they are printed."@en ;
+              rdfs:label "Card Edition"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#Card_Rarity
+:Card_Rarity rdf:type owl:Class ;
+             rdfs:subClassOf owl:Thing ;
+             rdfs:comment "This refers to a rarity of a Card. It is classified on to several rarities."@en ;
+             rdfs:label "Card Rarity"@en ;
+             rdfs:seeAlso "http://yugioh.wikia.com/wiki/Rarity"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Continuous_Spell_Card
+:Continuous_Spell_Card rdf:type owl:Class ;
+                       rdfs:subClassOf :Spell_Card ;
+                       rdfs:comment "This is a Spell Speed 1 Spell Card that stays on the field once it is activated. Spell Ruler, previously known as Magic Ruler, was the first TCG Booster Pack that contained Continuous Spell Cards."@en ;
+                       rdfs:label "Continuous Spell Card"@en ;
+                       rdfs:seeAlso "http://yugioh.wikia.com/wiki/Continuous_Spell_Card"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Continuous_Trap_Card
+:Continuous_Trap_Card rdf:type owl:Class ;
+                      rdfs:subClassOf :Trap_Card ;
+                      rdfs:comment "Continuous Traps are Trap Cards that stay on the field after activation. The effect(s) of these cards will remain active until the owner cannot maintain the cost or condition(s) indicated on the card (if any) OR it is destroyed. One example of a Continuous Trap Card is \"Spellbinding Circle\", which effectively freezes an enemy monster on the field, so it can neither change battle position nor declare an attack."@en ;
+                      rdfs:label "Continuous Trap Card"@en ;
+                      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Continuous_Trap_Card"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Counter_Trap_Card
+:Counter_Trap_Card rdf:type owl:Class ;
+                   rdfs:subClassOf :Trap_Card ;
+                   rdfs:comment "Counter Trap Cards are a Spell Speed 3. Only other Counter Trap Cards can be chained to a Counter Trap Card"@en ;
+                   rdfs:label "Counter Trap Card"@en ;
+                   rdfs:seeAlso "http://yugioh.wikia.com/wiki/Counter_Trap_Card"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Deck
+:Deck rdf:type owl:Class ;
+      rdfs:subClassOf owl:Thing ;
+      rdfs:comment "A pile of cards that a Duelist can draw from during play. Each Duelist uses his or her own Main Deck in a Duel."@en ;
+      rdfs:label "Deck"@en ;
+      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Deck"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Duel
+:Duel rdf:type owl:Class ;
+      rdfs:subClassOf <http://dublincore.org/2012/06/14/dctype#Event> ;
+      rdfs:comment "A Duel is a single game between 2 opposing players or teams, they Duel each other using a variety of Monster, Spell, and Trap Cards to defeat their opponent and win the game."@en ;
+      rdfs:label "Duel"@en ;
+      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Duel"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Duelist
+:Duelist rdf:type owl:Class ;
+         rdfs:subClassOf <http://www.w3.org/2000/10/swap/pim/contact#Person> ;
+         rdfs:comment "A Duelist or a Player is anyone participating in a Duel."@en ;
+         rdfs:label "Duelist"@en ;
+         rdfs:seeAlso "http://yugioh.wikia.com/wiki/Duelist"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Equip_Spell_Card
+:Equip_Spell_Card rdf:type owl:Class ;
+                  rdfs:subClassOf :Spell_Card ;
+                  rdfs:comment "This is a Spell Card that is a card that is equipped to a face-up monster on the field. Equip Spell Cards are type of Equip Card; Equip Cards can either be Equip Spell Cards or Trap Cards that are treated as Equip Cards."@en ;
+                  rdfs:label "Equip Spell Card"@en ;
+                  rdfs:seeAlso "http://yugioh.wikia.com/wiki/Equip_Spell_card"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Field_Spell_Card
+:Field_Spell_Card rdf:type owl:Class ;
+                  rdfs:subClassOf :Spell_Card ;
+                  rdfs:comment "Field Spells have the advantage of being able to change the entire state of play for its controller's or for both players' side of the field. They are Spell Speed 1 and are placed on the Field Zone, apart from the Spell & Trap Zones."@en ;
+                  rdfs:label "Field Spell Card"@en ;
+                  rdfs:seeAlso "http://yugioh.wikia.com/wiki/Field_Spell_Card"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Match
+:Match rdf:type owl:Class ;
+       rdfs:subClassOf <http://dublincore.org/2012/06/14/dctype#Event> ;
+       rdfs:comment """A Match is a best-of-three set of Duels.
+
+The first Duelist to win two Duels is declared the winner of the Match. If a Duelist loses two Duels, they are considered to have lost the Match. If both Duelists have one loss in a Match and both receive a simultaneous Game Loss penalty, the Match is considered a Double Loss."""@en ;
+       rdfs:label "Match"@en ;
+       rdfs:seeAlso "http://yugioh.wikia.com/wiki/Match"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Monster_Ability
+:Monster_Ability rdf:type owl:Class ;
+                 rdfs:subClassOf owl:Thing ;
+                 rdfs:comment "Classification of Effect Monster Cards. Abilities are listed in the same line as a monster's Type, separated by a slash (but are not the only classification that can be listed this way)"@en ;
+                 rdfs:label "Monster Ability"@en ;
+                 rdfs:seeAlso "http://yugioh.wikia.com/wiki/Ability"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Monster_Attribute
+:Monster_Attribute rdf:type owl:Class ;
+                   rdfs:subClassOf owl:Thing ;
+                   rdfs:comment "Attributes are essentially the \"elemental\" groups for each Monster Card. There are different cards made to support each \"element\", and there are popular monsters of each kind. It is possible for a monster to be considered part of multiple Attributes via a card effect, such the effect of \"Elemental Mistress Doriado\"."@en ;
+                   rdfs:label "Monster Attribute"@en ;
+                   rdfs:seeAlso "http://yugioh.wikia.com/wiki/Attribute"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Monster_Card
+:Monster_Card rdf:type owl:Class ;
+              rdfs:subClassOf :Card ;
+              rdfs:comment "Monster cards represent monsters that players battle against each other or directly against either player during the Battle Phase. Monsters are the main focus of Duel Monsters. Monster Cards are differentiated by their names, Type; Attribute; ATK; DEF; Level (or Rank or Link Rating). Monster Cards can be subdivided into Normal Monsters, Effect Monsters, Ritual Monsters, Fusion Monsters, Synchro Monsters, Xyz Monsters, Pendulum Monsters, Link Monsters and Token Monsters, each with a distinctive colored card frame to differentiate them."@en ;
+              rdfs:label "Monster Card"@en ;
+              rdfs:seeAlso "http://yugioh.wikia.com/wiki/Monster_Card"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Monster_Category
+:Monster_Category rdf:type owl:Class ;
+                  rdfs:subClassOf owl:Thing ;
+                  rdfs:comment "Monster Cards can be subdivided into Normal Monsters, Effect Monsters, Ritual Monsters, Fusion Monsters, Synchro Monsters, Xyz Monsters, Pendulum Monsters, Link Monsters and Token Monsters, each with a distinctive colored card frame to differentiate them."@en ;
+                  rdfs:label "Monster Category"@en ;
+                  rdfs:seeAlso "http://yugioh.wikia.com/wiki/Monster_Card"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Monster_Type
+:Monster_Type rdf:type owl:Class ;
+              rdfs:subClassOf owl:Thing ;
+              rdfs:comment "This is a characteristic of a Monster Card. All monsters have one Type, such that monsters of the same Type can be grouped together (in a similar way to Attributes) and support cards can grant various effects to a specific Type of monster."@en ;
+              rdfs:label "Monster Type"@en ;
+              rdfs:seeAlso "http://yugioh.wikia.com/wiki/Type"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Normal_Spell_Card
+:Normal_Spell_Card rdf:type owl:Class ;
+                   rdfs:subClassOf :Spell_Card ;
+                   rdfs:comment "This is a Spell Speed 1 Spell Card, so it cannot chain to other effects, even those of other Normal Spell Cards, but can be chained to by Spell Speed 2 or Spell Speed 3 cards."@en ;
+                   rdfs:label "Normal Spell Card"@en ;
+                   rdfs:seeAlso "http://yugioh.wikia.com/wiki/Normal_Spell_Card"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Normal_Trap_Card
+:Normal_Trap_Card rdf:type owl:Class ;
+                  rdfs:subClassOf :Trap_Card ;
+                  rdfs:comment "Normal Traps are Spell Speed 2. They can be activated during either player's turn as long as it wasn't set that turn. The effects of certain Normal Trap Cards behave like Equip Cards, but the card is still considered a Normal Trap Card."@en ;
+                  rdfs:label "Normal Trap Card"@en ;
+                  rdfs:seeAlso "http://yugioh.wikia.com/wiki/Normal_Trap_Card"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Quick-Play_Spell_Card
+:Quick-Play_Spell_Card rdf:type owl:Class ;
+                       rdfs:subClassOf :Spell_Card ;
+                       rdfs:comment "Quick-play Spells are a type of Spell Card that are Spell Speed 2. The turn player can activate Quick-Play Spell Cards from their hand during any Phase of their turn; either player can activate Set Quick-Play Spell cards during any Phase in either player's turn, except during the turn they are Set."@en ;
+                       rdfs:label "Quick-Play Spell Card"@en ;
+                       rdfs:seeAlso "http://yugioh.wikia.com/wiki/Quick-Play_Spell_Card"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Ritual_Spell_Card
+:Ritual_Spell_Card rdf:type owl:Class ;
+                   rdfs:subClassOf :Spell_Card ;
+                   rdfs:comment "Ritual Spells are a type of Spell Card used to Ritual Summon Ritual Monsters."@en ;
+                   rdfs:label "Ritual Spell Card"@en ;
+                   rdfs:seeAlso "http://yugioh.wikia.com/wiki/Ritual_Spell_Card"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Spell_Card
+:Spell_Card rdf:type owl:Class ;
+            rdfs:subClassOf :Card ;
+            rdfs:comment "Spell cards are cards with green-colored borders that have various effects to alter the play of the game. Often, a Spell Card has a single effect to provide a bonus to the user or a weakness to the opponent. Unlike Trap Cards, Spell Cards have the advantage of being able to be played without having to be Set first. Spell Cards, except Quick-Play Spell Cards, may be activated during the same turn it was Set."@en ;
+            rdfs:label "Spell Card"@en ;
+            rdfs:seeAlso "http://yugioh.wikia.com/wiki/Spell_Card"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Tournament
+:Tournament rdf:type owl:Class ;
+            rdfs:subClassOf <http://dublincore.org/2012/06/14/dctype#Event> ;
+            rdfs:comment "A Tournament is an event where Duelists of varying skill and ability gather, to determine who ranks the best amongst them. There are two primary levels of Tournaments:" ;
+            rdfs:label "Tournament"@en ;
+            rdfs:seeAlso "http://yugioh.wikia.com/wiki/Tournament"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Tournament_Format
+:Tournament_Format rdf:type owl:Class ;
+                   rdfs:subClassOf owl:Thing ;
+                   rdfs:comment """Tourmaments utilize one of these two formats:
+
+Traditional Format
+Advanced Format"""@en ;
+                   rdfs:label "Tournament Format"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#Tournament_Level
+:Tournament_Level rdf:type owl:Class ;
+                  rdfs:subClassOf owl:Thing ;
+                  rdfs:comment "Tournaments can appear on several levels. usually based on its size and location."@en ;
+                  rdfs:label "Tournament Level"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#Trap_Card
+:Trap_Card rdf:type owl:Class ;
+           rdfs:subClassOf :Card ;
+           rdfs:comment "Trap cards are cards with purple-colored borders that have various effects. A Trap Card must first be Set and can only be activated after the current turn has finished. After that, it may be activated during either player's turn. Trap Cards are Spell Speed 2, with the exception of Counter Trap Cards, which are Spell Speed 3."@en ;
+           rdfs:label "Trap Card"@en ;
+           rdfs:seeAlso "http://yugioh.wikia.com/wiki/Trap_Card"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Venue
+:Venue rdf:type owl:Class ;
+       rdfs:subClassOf <http://dbpedia.org/ontology/Place> ;
+       rdfs:comment "A place at which a tournament is held. Bigger events require bigger Venues."@en ;
+       rdfs:label "Venue"@en .
+
+
+###  http://www.w3.org/2000/10/swap/pim/contact#Person
+<http://www.w3.org/2000/10/swap/pim/contact#Person> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://ontology.ethereal.cz/ygo#Advanced_Format
+:Advanced_Format rdf:type owl:NamedIndividual ,
+                          :Tournament_Format ;
+                 rdfs:comment "In the TCG, the Advanced Format is the official format used at Regional, National, and World Championship Events. The Advanced Format includes the Forbidden List, the Limited List, and the Semi-Limited List."@en ;
+                 rdfs:label "Advanced Format"@en ;
+                 rdfs:seeAlso "http://yugioh.wikia.com/wiki/Advanced_Format"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Advanced_Ritual_Art
+:Advanced_Ritual_Art rdf:type owl:NamedIndividual ,
+                              :Ritual_Spell_Card ;
+                     :hasEdition :Delux_Edition ,
+                                 <http://ontology.ethereal.cz/ygo#1st_Edition> ;
+                     :cardDescription "This card can be used to Ritual Summon any 1 Ritual Monster. You must also send Normal Monsters from your Deck to the Graveyard whose total Levels equal the Level of that Ritual Monster."@en ;
+                     :cardName "Advanced Ritual Art"@en ;
+                     rdfs:label "Advanced Ritual Art"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#Aqua
+:Aqua rdf:type owl:NamedIndividual ,
+               :Monster_Type ;
+      rdfs:label "Aqua"@en ;
+      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Aqua"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Beast
+:Beast rdf:type owl:NamedIndividual ,
+                :Monster_Type ;
+       rdfs:label "Beast"@en ;
+       rdfs:seeAlso "http://yugioh.wikia.com/wiki/Beast"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Beast-Warrior
+:Beast-Warrior rdf:type owl:NamedIndividual ,
+                        :Monster_Type ;
+               rdfs:label "Beast-Warrior"@en ;
+               rdfs:seeAlso "http://yugioh.wikia.com/wiki/Beast-Warrior"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Beta_Format
+:Beta_Format rdf:type owl:NamedIndividual ,
+                      :Tournament_Format ;
+             rdfs:comment "Beta Format, also referred to as Special Format in early descriptions, is a format that was used at some Win-A-Mat events. Introduced at YCS Chicago (April 10-12, 2015), it incorporates the Advanced Format with additional restrictions on Summons. As of January 24, 2016 (at the latest), it is no longer being used at big events due to lack of interest. This format makes a comeback in the 2017 WCQ: European Championship."@en ;
+             rdfs:label "Beta Format"@en ;
+             rdfs:seeAlso "http://yugioh.wikia.com/wiki/Beta_Format"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Black_Magician
+:Black_Magician rdf:type owl:NamedIndividual ,
+                         :Monster_Card ;
+                :hasMonsterAttribute :Dark ;
+                :hasMonsterCategory :Normal_Monster ;
+                :hasMonsterType :Spellcaster ;
+                :hasRarity :Secret_Rare ,
+                           :Ultimate_Rare ;
+                :ATK 2500 ;
+                :DEF 2100 ;
+                :cardDescription "Mage suprême en termes d'attaque et de défense."@fr ,
+                                 "The ultimate wizard in terms of attack and defense."@en ;
+                :cardName "Black Magician"@en ,
+                          "Magicien Sombre"@fr ;
+                :level 7 ;
+                rdfs:label "Black Magician"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#Common
+:Common rdf:type owl:NamedIndividual ,
+                 :Card_Rarity ;
+        rdfs:label "Common"@en ;
+        rdfs:seeAlso "http://yugioh.wikia.com/wiki/Common"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Continental_Championship
+:Continental_Championship rdf:type owl:NamedIndividual ,
+                                   :Tournament_Level ;
+                          rdfs:comment "A tournament held at the continental level."@en ;
+                          rdfs:label "Continental Championship"@en ;
+                          rdfs:seeAlso "http://yugioh.wikia.com/wiki/World_Championship_Qualifiers"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Cyberse
+:Cyberse rdf:type owl:NamedIndividual ,
+                  :Monster_Type ;
+         rdfs:label "Cyberse"@en ;
+         rdfs:seeAlso "http://yugioh.wikia.com/wiki/Cyberse"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Dark
+:Dark rdf:type owl:NamedIndividual ,
+               :Monster_Attribute ;
+      rdfs:label "Dark"@en ;
+      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Dark"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Delux_Edition
+:Delux_Edition rdf:type owl:NamedIndividual ,
+                        :Card_Edition ;
+               rdfs:comment "A Deluxe Edition is a product in the TCG that was introduced by Konami as an attempt to replace Special Editions. It contains 9 Booster Packs of the set, a Beginner's guide, 2 Ultra Rare versions of Common or Rare cards from the set, 1 pack of 50 card sleeves, and 1 of 2 Super Rare preview cards from the next set. All promo cards are Limited Edition."@en ;
+               rdfs:label "Delux Edition"@en ;
+               rdfs:seeAlso "http://yugioh.wikia.com/wiki/Delux_Edition"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Dinosaur
+:Dinosaur rdf:type owl:NamedIndividual ,
+                   :Monster_Type ;
+          rdfs:label "Dinosaur"@en ;
+          rdfs:seeAlso "http://yugioh.wikia.com/wiki/Dinosaur"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Divine
+:Divine rdf:type owl:NamedIndividual ,
+                 :Monster_Attribute ;
+        rdfs:label "Divine"@en ;
+        rdfs:seeAlso "http://yugioh.wikia.com/wiki/Divine"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Draft_Format
+:Draft_Format rdf:type owl:NamedIndividual ,
+                       :Tournament_Format ;
+              rdfs:comment "A Draft Format is where players sit at tables in groups of 4-8, depending on the number participating, with their unopened booster packs on the table. Then when told to by the Tournament Organizer, each player picks up 1 of their booster packs and opens it, then takes 1 of the cards and sets it face-down in front of them to start a pile. After that, they pass the remaining cards to the left or right, dictated by the Tournament organizer. This continues until all 9 cards from each pack has been selected and no more cards are being passed around, then each player opens the next pack and repeats, passing the cards in the opposite direction. Once all packs have been used up, players separate to construct Decks with a minimum of 20 using the cards they've selected."@en ;
+              rdfs:label "Draft Format"@en ;
+              rdfs:seeAlso "http://yugioh.wikia.com/wiki/Draft_Format"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Duel_Terminal_Edition
+:Duel_Terminal_Edition rdf:type owl:NamedIndividual ,
+                                :Card_Edition ;
+                       rdfs:comment "Duel Terminal Edition cards are dispensed exclusively from \"Duel Terminal\" arcade machines. They are identified by having \"DUEL TERMINAL\" printed where the card's edition would be. This indicates that the card is compatible with the \"Duel Terminal\"; only Duel Terminal Edition cards can be used at \"Duel Terminals\". Duel Terminal Edition cards also have a nearly invisible QR code printed in the back center of the card."@en ;
+                       rdfs:label "Duel Terminal Edition"@en ;
+                       rdfs:seeAlso "http://yugioh.wikia.com/wiki/Duel_Terminal_Edition"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Duelist_League
+:Duelist_League rdf:type owl:NamedIndividual ,
+                         :Tournament_Level ;
+                rdfs:comment "A small tournament held at the local level (town, city, etc.)"@en ;
+                rdfs:label "Duelist League"@en ;
+                rdfs:seeAlso "http://yugioh.wikia.com/wiki/Duelist_League"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Earth
+:Earth rdf:type owl:NamedIndividual ,
+                :Monster_Attribute ;
+       rdfs:label "Earth"@en ;
+       rdfs:seeAlso "http://yugioh.wikia.com/wiki/Earth"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Effect_Monster
+:Effect_Monster rdf:type owl:NamedIndividual ,
+                         :Monster_Category ;
+                rdfs:label "Effect Monster"@en ;
+                rdfs:seeAlso "http://yugioh.wikia.com/wiki/Effect_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Fairy
+:Fairy rdf:type owl:NamedIndividual ,
+                :Monster_Type ;
+       rdfs:label "Fairy"@en ;
+       rdfs:seeAlso "http://yugioh.wikia.com/wiki/Fairy"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Fiend
+:Fiend rdf:type owl:NamedIndividual ,
+                :Monster_Type ;
+       rdfs:label "Fiend"@en ;
+       rdfs:seeAlso "http://yugioh.wikia.com/wiki/Fiend"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Fire
+:Fire rdf:type owl:NamedIndividual ,
+               :Monster_Attribute ;
+      rdfs:label "Fire"@en ;
+      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Fire"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Fish
+:Fish rdf:type owl:NamedIndividual ,
+               :Monster_Type ;
+      rdfs:label "Fish"@en ;
+      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Fish"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Flip
+:Flip rdf:type owl:NamedIndividual ,
+               :Monster_Ability ;
+      rdfs:comment "Flip monsters are Effect Monsters with the ability \"Flip\". They all have a Flip effect, although they may also have other effects in addition to their Flip effect." ;
+      rdfs:label "Flip"@en ;
+      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Flip_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Fusion_Monster
+:Fusion_Monster rdf:type owl:NamedIndividual ,
+                         :Monster_Category ;
+                rdfs:label "Fusion Monster"@en ;
+                rdfs:seeAlso "http://yugioh.wikia.com/wiki/Fusion_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Gemini
+:Gemini rdf:type owl:NamedIndividual ,
+                 :Monster_Ability ;
+        rdfs:comment "Gemini Monsters are Effect Monsters with the ability \"Gemini\". They have effects, but these effects must be \"unlocked\" by performing an additional Normal Summon on them while they are face-up on the field; until then, they are treated as Normal Monsters on the field and in the Graveyard (everywhere else they are treated as Effect Monsters)" ;
+        rdfs:label "Gemini"@en ;
+        rdfs:seeAlso "http://yugioh.wikia.com/wiki/Gemini_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Ghost_Rare
+:Ghost_Rare rdf:type owl:NamedIndividual ,
+                     :Card_Rarity ;
+            rdfs:label "Ghost Rare"@en ;
+            rdfs:seeAlso "http://yugioh.wikia.com/wiki/Ghost_Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Gold_Rare
+:Gold_Rare rdf:type owl:NamedIndividual ,
+                    :Card_Rarity ;
+           rdfs:label "Gold Rare"@en ;
+           rdfs:seeAlso "http://yugioh.wikia.com/wiki/Gold_Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Holofoil_Rare
+:Holofoil_Rare rdf:type owl:NamedIndividual ,
+                        :Card_Rarity ;
+               rdfs:label "Holofoil Rare"@en ;
+               rdfs:seeAlso "http://yugioh.wikia.com/wiki/Holofoil_Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Holographic_Rare
+:Holographic_Rare rdf:type owl:NamedIndividual ,
+                           :Card_Rarity ;
+                  rdfs:label "Holographic Rare"@en ;
+                  rdfs:seeAlso "http://yugioh.wikia.com/wiki/Holographic_Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Insect
+:Insect rdf:type owl:NamedIndividual ,
+                 :Monster_Type ;
+        rdfs:label "Insect"@en ;
+        rdfs:seeAlso "http://yugioh.wikia.com/wiki/Insect"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Light
+:Light rdf:type owl:NamedIndividual ,
+                :Monster_Attribute ;
+       rdfs:label "Light"@en ;
+       rdfs:seeAlso "http://yugioh.wikia.com/wiki/Light"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Limited_Edition
+:Limited_Edition rdf:type owl:NamedIndividual ,
+                          :Card_Edition ;
+                 rdfs:comment "Limited Edition is an edition of cards in the TCG, Korean OCG, and Asian-English OCG that is marked by the text \"Limited Edition\". It is not used in the Japanese, Japanese-Asian, and Chinese OCG."@en ;
+                 rdfs:label "Limited Edition"@en ;
+                 rdfs:seeAlso "http://yugioh.wikia.com/wiki/Limited_Edition"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Link_Monster
+:Link_Monster rdf:type owl:NamedIndividual ,
+                       :Monster_Category ;
+              rdfs:label "Link Monster"@en ;
+              rdfs:seeAlso "http://yugioh.wikia.com/wiki/Link_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Machine
+:Machine rdf:type owl:NamedIndividual ,
+                  :Monster_Type ;
+         rdfs:label "Machine"@en ;
+         rdfs:seeAlso "http://yugioh.wikia.com/wiki/Machine"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Mirror_Force
+:Mirror_Force rdf:type owl:NamedIndividual ,
+                       :Normal_Trap_Card ;
+              :hasRarity :Gold_Rare ,
+                         :Prismatic_Secret_Rare ,
+                         :Ultimate_Rare ;
+              :cardDescription "When your opponent declares an Attack; destroy all Attack-Position monster your opponent controls."@en ;
+              :cardName "Mirror Force"@en ;
+              rdfs:label "Mirror Force"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#Mystical_Space_Typhoon
+:Mystical_Space_Typhoon rdf:type owl:NamedIndividual ,
+                                 :Quick-Play_Spell_Card ;
+                        :hasEdition :Unlimited_Edition ;
+                        :cardDescription "Target one Spell or Trap Card ont the Field; destroy it."@en ;
+                        :cardName "Mystical Space Typhoon"@en ;
+                        rdfs:label "Mystical Space Typhoon"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#National_Tournament
+:National_Tournament rdf:type owl:NamedIndividual ,
+                              :Tournament_Level ;
+                     rdfs:comment "A tournament held at the national level."@en ;
+                     rdfs:label "National Tournament"@en ;
+                     rdfs:seeAlso "http://yugioh.wikia.com/wiki/National_Tournament"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Normal_Monster
+:Normal_Monster rdf:type owl:NamedIndividual ,
+                         :Monster_Category ;
+                rdfs:label "Normal Monster"@en ;
+                rdfs:seeAlso "http://yugioh.wikia.com/wiki/Normal_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Normal_Parallel_Rare
+:Normal_Parallel_Rare rdf:type owl:NamedIndividual ,
+                               :Card_Rarity ;
+                      rdfs:label "Normal Parallel Rare"@en ;
+                      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Normal_Parallel_Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Pendulum_Monster
+:Pendulum_Monster rdf:type owl:NamedIndividual ,
+                           :Monster_Category ;
+                  rdfs:label "Pendulum Monster"@en ;
+                  rdfs:seeAlso "http://yugioh.wikia.com/wiki/Pendulum_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Plant
+:Plant rdf:type owl:NamedIndividual ,
+                :Monster_Type ;
+       rdfs:label "Plant"@en ;
+       rdfs:seeAlso "http://yugioh.wikia.com/wiki/Plant"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Premature_Burial
+:Premature_Burial rdf:type owl:NamedIndividual ,
+                           :Equip_Spell_Card ;
+                  :hasRarity :Secret_Ultra_Rare ,
+                             :Super_Parallel_Rare ;
+                  :cardDescription "Activate this card by paying 800 LP, then target 1 monster in your Graveyard; Special Summon that target in Attack Position and equip it with this card. When this card is destroyed, destroy the equipped monster."@en ;
+                  :cardName "Premature Burial"@en ;
+                  rdfs:label "Premature Burial"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#Prismatic_Secret_Rare
+:Prismatic_Secret_Rare rdf:type owl:NamedIndividual ,
+                                :Card_Rarity ;
+                       rdfs:label "Prismatic Secret Rare"@en ;
+                       rdfs:seeAlso "http://yugioh.wikia.com/wiki/Prismatic_Secret_Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Psychic
+:Psychic rdf:type owl:NamedIndividual ,
+                  :Monster_Type ;
+         rdfs:label "Psychic"@en ;
+         rdfs:seeAlso "http://yugioh.wikia.com/wiki/Psychic"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Pyro
+:Pyro rdf:type owl:NamedIndividual ,
+               :Monster_Type ;
+      rdfs:label "Pyro"@en ;
+      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Pyro"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Raigeki
+:Raigeki rdf:type owl:NamedIndividual ,
+                  :Normal_Spell_Card ;
+         :hasEdition :Limited_Edition ,
+                     :Standard_Edition ;
+         :hasRarity :Secret_Ultra_Rare ;
+         :cardDescription "Destroy all monsters your opponent controls."@en ;
+         :cardName "Raigeki"@en ;
+         rdfs:label "Raigeki"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#Rare
+:Rare rdf:type owl:NamedIndividual ,
+               :Card_Rarity ;
+      rdfs:label "Rare"@en ;
+      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Regional_Tournament
+:Regional_Tournament rdf:type owl:NamedIndividual ,
+                              :Tournament_Level ;
+                     rdfs:comment "A tournament held at regional level."@en ;
+                     rdfs:label "Regional Tournament"@en ;
+                     rdfs:seeAlso "http://yugioh.wikia.com/wiki/Regional_Tournament"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Reptile
+:Reptile rdf:type owl:NamedIndividual ,
+                  :Monster_Type ;
+         rdfs:label "Reptile"@en ;
+         rdfs:seeAlso "http://yugioh.wikia.com/wiki/Reptile"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Ritual_Monster
+:Ritual_Monster rdf:type owl:NamedIndividual ,
+                         :Monster_Category ;
+                rdfs:label "Ritual Monster"@en ;
+                rdfs:seeAlso "http://yugioh.wikia.com/wiki/Ritual_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Rock
+:Rock rdf:type owl:NamedIndividual ,
+               :Monster_Type ;
+      rdfs:label "Rock"@en ;
+      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Rock"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Royal_Decree
+:Royal_Decree rdf:type owl:NamedIndividual ,
+                       :Continuous_Trap_Card ;
+              :hasRarity :Holographic_Rare ;
+              :cardDescription "Negate all other Trap effects on the field."@en ;
+              :cardName "Royal Decree"@en ;
+              rdfs:label "Royal Decree"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#Sea_Serpent
+:Sea_Serpent rdf:type owl:NamedIndividual ,
+                      :Monster_Type ;
+             rdfs:label "Sea Serpent"@en ;
+             rdfs:seeAlso "http://yugioh.wikia.com/wiki/Sea_Serpent"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Secret_Rare
+:Secret_Rare rdf:type owl:NamedIndividual ,
+                      :Card_Rarity ;
+             rdfs:label "Secret Rare"@en ;
+             rdfs:seeAlso "http://yugioh.wikia.com/wiki/Secret_Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Secret_Ultra_Rare
+:Secret_Ultra_Rare rdf:type owl:NamedIndividual ,
+                            :Card_Rarity ;
+                   rdfs:label "Secret Ultra Rare"@en ;
+                   rdfs:seeAlso "http://yugioh.wikia.com/wiki/Secret_Ultra_Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Short_Print
+:Short_Print rdf:type owl:NamedIndividual ,
+                      :Card_Rarity ;
+             rdfs:label "Short Print"@en ;
+             rdfs:seeAlso "http://yugioh.wikia.com/wiki/Short_Print"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Solemn_Judgement
+:Solemn_Judgement rdf:type owl:NamedIndividual ,
+                           :Counter_Trap_Card ;
+                  :hasEdition :Limited_Edition ;
+                  :hasRarity :Secret_Rare ;
+                  :cardDescription "When a monster would be Summoned, OR a Spell/Trap Card is activated: Pay half your Life Points; negate the Summon or activation, and if you do, destroy that card."@en ;
+                  :cardName "Solemn Judgement"@en ;
+                  rdfs:label "Solemn Judgement"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#Spellcaster
+:Spellcaster rdf:type owl:NamedIndividual ,
+                      :Monster_Type ;
+             rdfs:label "Spellcaster"@en ;
+             rdfs:seeAlso "http://yugioh.wikia.com/wiki/Spellcaster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Spirit
+:Spirit rdf:type owl:NamedIndividual ,
+                 :Monster_Ability ;
+        rdfs:comment "Spirit Monsters are Effect Monsters with the ability \"Spirit\". With the exception of the Special Summon Monster \"Yamato-no-Kami\" and the \"Shinobird\" Ritual Monsters, they cannot be Special Summoned and each have an effect that returns them to their owner's hand during the End Phase of the turn they are Normal Summoned or flipped face-up (or the turn they are Special Summoned in case of Spirit monsters that must be Special Summoned)." ;
+        rdfs:label "Spirit"@en ;
+        rdfs:seeAlso "http://yugioh.wikia.com/wiki/Spirit_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Standard_Edition
+:Standard_Edition rdf:type owl:NamedIndividual ,
+                           :Card_Edition ;
+                  rdfs:comment "Standard Edition is an internal description used by the Yu-Gi-Oh! Wikia to refer to the majority of OCG cards that would ordinarily be called \"Unlimited Edition\" in the TCG. Because the Japanese, Japanese-Asian, and Chinese OCG do not have a \"1st Edition\", we need a way of differentiating these and \"Replica\" cards. \"Standard Edition\" cards lack edition information in their filename."@en ;
+                  rdfs:label "Standard Edition"@en ;
+                  rdfs:seeAlso "http://yugioh.wikia.com/wiki/Standard_Edition"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Super_Parallel_Rare
+:Super_Parallel_Rare rdf:type owl:NamedIndividual ,
+                              :Card_Rarity ;
+                     rdfs:label "Super Parallel Rare"@en ;
+                     rdfs:seeAlso "http://yugioh.wikia.com/wiki/Super_Parallel_Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Super_Rare
+:Super_Rare rdf:type owl:NamedIndividual ,
+                     :Card_Rarity ;
+            rdfs:label "Super Rare"@en ;
+            rdfs:seeAlso "http://yugioh.wikia.com/wiki/Super_Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Super_Short_Print
+:Super_Short_Print rdf:type owl:NamedIndividual ,
+                            :Card_Rarity ;
+                   rdfs:label "Super Short Print"@en ;
+                   rdfs:seeAlso "http://yugioh.wikia.com/wiki/Super_Short_Print"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Synchro_Monster
+:Synchro_Monster rdf:type owl:NamedIndividual ,
+                          :Monster_Category ;
+                 rdfs:label "Synchro Monster"@en ;
+                 rdfs:seeAlso "http://yugioh.wikia.com/wiki/Synchro_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Thunder
+:Thunder rdf:type owl:NamedIndividual ,
+                  :Monster_Type ;
+         rdfs:label "Thunder"@en ;
+         rdfs:seeAlso "http://yugioh.wikia.com/wiki/Thunder"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Token_Monster
+:Token_Monster rdf:type owl:NamedIndividual ,
+                        :Monster_Category ;
+               rdfs:label "Token Monster"@en ;
+               rdfs:seeAlso "http://yugioh.wikia.com/wiki/Token_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Toon
+:Toon rdf:type owl:NamedIndividual ,
+               :Monster_Ability ;
+      rdfs:comment "Toon monsters are cartoonized counterparts of existing monsters, having some reliance on the card \"Toon World\"." ;
+      rdfs:label "Toon"@en ;
+      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Toon_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Traditional_Format
+:Traditional_Format rdf:type owl:NamedIndividual ,
+                             :Tournament_Format ;
+                    rdfs:comment "In the TCG, the Traditional Format was created around October 2004 as a counterpart to the then newly-introduced Advanced Format and its Forbidden list, since some players, especially those that had been playing for longer, still wanted to play with cards that had become Forbidden. The Traditional Format does not have a Forbidden List, instead having only Limited and Semi-Limited Lists, with all of the Forbidden cards from the Advanced Format being placed in Limited instead. The two formats are otherwise identical."@en ;
+                    rdfs:label "Traditional Format"@en ;
+                    rdfs:seeAlso "http://yugioh.wikia.com/wiki/Traditional_Format"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Tuner
+:Tuner rdf:type owl:NamedIndividual ,
+                :Monster_Ability ;
+       rdfs:comment "Tuner Monsters are monsters with \"Tuner\" listed on the Type/Ability line. They are required for the Synchro Summon of a Synchro Monster. Normal, Fusion, Effect, Pendulum, and Synchro Monsters themselves can all be Tuner monsters, although some card effects can treat non-Tuner monsters as Tuners. Flip and Union monsters and Special Summon Monsters can also be Tuner monsters." ;
+       rdfs:label "Tuner"@en ;
+       rdfs:seeAlso "http://yugioh.wikia.com/wiki/Tuner_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Twilight_Edition
+:Twilight_Edition rdf:type owl:NamedIndividual ,
+                           :Card_Edition ;
+                  rdfs:comment "Twilight Edition: Light & Dark, also known as simply Twilight Edition, is a set which combines the best LIGHT and DARK monsters from 2008 and 2009."@en ;
+                  rdfs:label "Twilight Edition"@en ;
+                  rdfs:seeAlso "http://yugioh.wikia.com/wiki/Twilight_Edition"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Ultimate_Rare
+:Ultimate_Rare rdf:type owl:NamedIndividual ,
+                        :Card_Rarity ;
+               rdfs:label "Ultimate Rare"@en ;
+               rdfs:seeAlso "http://yugioh.wikia.com/wiki/Ultimate_Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Ultra_Parallel_Rare
+:Ultra_Parallel_Rare rdf:type owl:NamedIndividual ,
+                              :Card_Rarity ;
+                     rdfs:label "Ultra Parallel Rare"@en ;
+                     rdfs:seeAlso "http://yugioh.wikia.com/wiki/Ultra_Parallel_Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Ultra_Rare
+:Ultra_Rare rdf:type owl:NamedIndividual ,
+                     :Card_Rarity ;
+            rdfs:label "Ultra Rare"@en ;
+            rdfs:seeAlso "http://yugioh.wikia.com/wiki/Ultra_Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Ultra_Secret_Rare
+:Ultra_Secret_Rare rdf:type owl:NamedIndividual ,
+                            :Card_Rarity ;
+                   rdfs:label "Ultra Secret Rare"@en ;
+                   rdfs:seeAlso "http://yugioh.wikia.com/wiki/Ultra_Secret_Rare"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Umi
+:Umi rdf:type owl:NamedIndividual ,
+              :Field_Spell_Card ;
+     :hasEdition :Unlimited_Edition ;
+     :cardDescription "Increase the ATK and DEF of all Fish, Sea Serpent, Thunder, and Aqua-Type monsters by 200 points. Decrease the ATK and DEF of all Machine and Pyro-Type monsters by 200 points."@en ;
+     :cardName "Premature Burial"@en ;
+     rdfs:label "Umi"@en .
+
+
+###  http://ontology.ethereal.cz/ygo#Union
+:Union rdf:type owl:NamedIndividual ,
+                :Monster_Ability ;
+       rdfs:comment "Union monsters are Effect Monsters with the ability \"Union\". Each Union monster has an effect that allows it to equip itself to a monster as an Equip Spell Card or unequip itself to Special Summon itself to a Monster Zone." ;
+       rdfs:label "Union Ability"@en ;
+       rdfs:seeAlso "http://yugioh.wikia.com/wiki/Union_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Unlimited_Edition
+:Unlimited_Edition rdf:type owl:NamedIndividual ,
+                            :Card_Edition ;
+                   rdfs:comment "Unlimited Edition is the edition of cards that have no edition text in the TCG, Korean OCG, and Asian-English OCG. In the Japanese, Japanese-Asian, and Chinese OCG, cards are not printed with editions (other than Duel Terminal Edition), so cards lacking edition text are referred to as Standard Edition instead."@en ;
+                   rdfs:label "Unlimited Edition"@en ;
+                   rdfs:seeAlso "http://yugioh.wikia.com/wiki/Unlimited_Edition"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Warrior
+:Warrior rdf:type owl:NamedIndividual ,
+                  :Monster_Type ;
+         rdfs:label "Warrior"@en ;
+         rdfs:seeAlso "http://yugioh.wikia.com/wiki/Warrior"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Water
+:Water rdf:type owl:NamedIndividual ,
+                :Monster_Attribute ;
+       rdfs:label "Water"@en ;
+       rdfs:seeAlso "http://yugioh.wikia.com/wiki/Water"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Wind
+:Wind rdf:type owl:NamedIndividual ,
+               :Monster_Attribute ;
+      rdfs:label "Wind"@en ;
+      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Wind"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Winged_Beast
+:Winged_Beast rdf:type owl:NamedIndividual ,
+                       :Monster_Type ;
+              rdfs:label "Winged Beast"@en ;
+              rdfs:seeAlso "http://yugioh.wikia.com/wiki/Winged_Beast"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#World_Championship
+:World_Championship rdf:type owl:NamedIndividual ,
+                             :Tournament_Level ;
+                    rdfs:comment "A tournament held at the world-wide level."@en ;
+                    rdfs:label "World Championship"@en ;
+                    rdfs:seeAlso "http://yugioh.wikia.com/wiki/World_Championship"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Wyrm
+:Wyrm rdf:type owl:NamedIndividual ,
+               :Monster_Type ;
+      rdfs:label "Wyrm"@en ;
+      rdfs:seeAlso "http://yugioh.wikia.com/wiki/Wyrm"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#XYZ_Monster
+:XYZ_Monster rdf:type owl:NamedIndividual ,
+                      :Monster_Category ;
+             rdfs:label "XYZ Monster"@en ;
+             rdfs:seeAlso "http://yugioh.wikia.com/wiki/XYZ_Monster"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#YCS
+:YCS rdf:type owl:NamedIndividual ,
+              :Tournament_Level ;
+     rdfs:comment "Yu-Gi-Oh! Championship Series, often abbreviated as YCS, is a tournament series that replaced the Shonen Jump Championship Series. A YCS is a large two day tournament which takes place once a month over a weekend in the United States of America, Europe, Canada and South America."@en ;
+     rdfs:label "YCS"@en ;
+     rdfs:seeAlso "http://yugioh.wikia.com/wiki/YCS"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Zombie
+:Zombie rdf:type owl:NamedIndividual ,
+                 :Monster_Type ;
+        rdfs:label "Zombie"@en ;
+        rdfs:seeAlso "http://yugioh.wikia.com/wiki/Zombie"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#1st_Edition
+<http://ontology.ethereal.cz/ygo#1st_Edition> rdf:type owl:NamedIndividual ,
+                                                       :Card_Edition ;
+                                              rdfs:comment "1st Edition is an edition of cards in the TCG, Korean OCG, and Asian-English OCG that is marked by the text \"1st Edition\". It is not used in the Japanese, Japanese-Asian, and Chinese OCG."@en ;
+                                              rdfs:label "1st Edition"@en ;
+                                              rdfs:seeAlso "http://yugioh.wikia.com/wiki/1st_Edition"^^xsd:anyURI .
+
+
+###  http://ontology.ethereal.cz/ygo#Valhalla,_Hall_of_the_Fallen
+<http://ontology.ethereal.cz/ygo#Valhalla,_Hall_of_the_Fallen> rdf:type owl:NamedIndividual ,
+                                                                        :Continuous_Spell_Card ;
+                                                               :hasEdition :Delux_Edition ,
+                                                                           <http://ontology.ethereal.cz/ygo#1st_Edition> ;
+                                                               :hasRarity :Holographic_Rare ;
+                                                               :cardDescription "Once per turn: You can Special Summon 1 Fairy-Type monster from your hand. You must control no monsters to activate and to resolve this effect."@en ;
+                                                               :cardName "Valhalla, Hall of the Fallen"@en ;
+                                                               rdfs:label "Valhalla, Hall of the Fallen"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( <http://dublincore.org/2012/06/14/dctype#Event>
+                :Card
+                :Card_Edition
+                :Card_Rarity
+                :Deck
+                :Monster_Ability
+                :Monster_Attribute
+                :Monster_Category
+                :Monster_Type
+                :Tournament_Format
+                :Tournament_Level
+                :Venue
+                <http://www.w3.org/2000/10/swap/pim/contact#Person>
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Continuous_Spell_Card
+                :Equip_Spell_Card
+                :Field_Spell_Card
+                :Normal_Spell_Card
+                :Quick-Play_Spell_Card
+                :Ritual_Spell_Card
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Continuous_Trap_Card
+                :Counter_Trap_Card
+                :Normal_Trap_Card
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Duel
+                :Match
+                :Tournament
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Monster_Card
+                :Spell_Card
+                :Trap_Card
+              )
+] .
+
+
+###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/
