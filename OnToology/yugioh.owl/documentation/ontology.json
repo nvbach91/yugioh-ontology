@@ -1,0 +1,2394 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://dublincore.org/2012/06/14/dctype#Event"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Card"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Card_Edition"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Card_Rarity"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Deck"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Monster_Ability"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Monster_Attribute"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Monster_Category"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Monster_Type"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Tournament_Format"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Tournament_Level"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Venue"
+    }, {
+      "@id" : "http://www.w3.org/2000/10/swap/pim/contact#Person"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://ontology.ethereal.cz/ygo#Continuous_Spell_Card"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Equip_Spell_Card"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Field_Spell_Card"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Normal_Spell_Card"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Quick-Play_Spell_Card"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Ritual_Spell_Card"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://ontology.ethereal.cz/ygo#Continuous_Trap_Card"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Counter_Trap_Card"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Normal_Trap_Card"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://ontology.ethereal.cz/ygo#Duel"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Match"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Tournament"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://ontology.ethereal.cz/ygo#Monster_Card"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Spell_Card"
+    }, {
+      "@id" : "http://ontology.ethereal.cz/ygo#Trap_Card"
+    } ]
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://dublincore.org/2012/06/14/dctype#Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/abstract" : [ {
+    "@language" : "en",
+    "@value" : "Abstract: The Yu-Gi-Oh! Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."
+  } ],
+  "http://purl.org/dc/elements/1.1/contributor" : [ {
+    "@value" : "Vojtěch Svátek"
+  } ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Nguyen Viet Bach"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "The Yu-Gi-Oh! Ontology, described using W3C RDF Schema and the Web Ontology Language OWL."
+  } ],
+  "http://purl.org/dc/elements/1.1/subject" : [ {
+    "@language" : "en",
+    "@value" : "Trading Card Game, Tournament, Ontology, Semantic SEO, RDFa, Linked Data, RDF, Semantic Web"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "Yu-Gi-Oh! TCG Ontology"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2020-04-24"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/3.0/"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@value" : "University of Economics, Prague, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "ygo"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "http://ontology.ethereal.cz/ygo#"
+  } ],
+  "http://schema.org/image" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://ontology.ethereal.cz/src/ygo-ontology.png"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Yu-Gi-Oh! TCG Ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/def/YuGiOhTCGOntology"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "Version 1.0.5, Release 2020 Apr 24"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#1st_Edition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Edition" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "1st Edition is an edition of cards in the TCG, Korean OCG, and Asian-English OCG that is marked by the text \"1st Edition\". It is not used in the Japanese, Japanese-Asian, and Chinese OCG."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "1st Edition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/1st_Edition"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#ATK",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The ATK (attack) points of a Monster."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Monster_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ATK"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Advanced_Format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Tournament_Format" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "In the TCG, the Advanced Format is the official format used at Regional, National, and World Championship Events. The Advanced Format includes the Forbidden List, the Limited List, and the Semi-Limited List."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Advanced Format"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Advanced_Format"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Advanced_Ritual_Art",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Ritual_Spell_Card" ],
+  "http://ontology.ethereal.cz/ygo#cardDescription" : [ {
+    "@language" : "en",
+    "@value" : "This card can be used to Ritual Summon any 1 Ritual Monster. You must also send Normal Monsters from your Deck to the Graveyard whose total Levels equal the Level of that Ritual Monster."
+  } ],
+  "http://ontology.ethereal.cz/ygo#cardName" : [ {
+    "@language" : "en",
+    "@value" : "Advanced Ritual Art"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasEdition" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Delux_Edition"
+  }, {
+    "@id" : "http://ontology.ethereal.cz/ygo#1st_Edition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Advanced Ritual Art"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Aqua",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Aqua"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Aqua"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Beast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Beast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Beast"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Beast-Warrior",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Beast-Warrior"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Beast-Warrior"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Beta_Format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Tournament_Format" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Beta Format, also referred to as Special Format in early descriptions, is a format that was used at some Win-A-Mat events. Introduced at YCS Chicago (April 10-12, 2015), it incorporates the Advanced Format with additional restrictions on Summons. As of January 24, 2016 (at the latest), it is no longer being used at big events due to lack of interest. This format makes a comeback in the 2017 WCQ: European Championship."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Beta Format"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Beta_Format"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Black_Magician",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Card" ],
+  "http://ontology.ethereal.cz/ygo#ATK" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2500"
+  } ],
+  "http://ontology.ethereal.cz/ygo#DEF" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2100"
+  } ],
+  "http://ontology.ethereal.cz/ygo#cardDescription" : [ {
+    "@language" : "fr",
+    "@value" : "Mage suprême en termes d'attaque et de défense."
+  }, {
+    "@language" : "en",
+    "@value" : "The ultimate wizard in terms of attack and defense."
+  } ],
+  "http://ontology.ethereal.cz/ygo#cardName" : [ {
+    "@language" : "en",
+    "@value" : "Black Magician"
+  }, {
+    "@language" : "fr",
+    "@value" : "Magicien Sombre"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasMonsterAttribute" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Dark"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasMonsterCategory" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Normal_Monster"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasMonsterType" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Spellcaster"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasRarity" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Secret_Rare"
+  }, {
+    "@id" : "http://ontology.ethereal.cz/ygo#Ultimate_Rare"
+  } ],
+  "http://ontology.ethereal.cz/ygo#level" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Black Magician"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "There are three main types of cards: Monster, Spell, and Trap."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Card_Edition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The editions of cards. usually determined by the time they are printed."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Card Edition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Card_Rarity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This refers to a rarity of a Card. It is classified on to several rarities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Card Rarity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Rarity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Common",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Common"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Common"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Continental_Championship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Tournament_Level" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A tournament held at the continental level."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Continental Championship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/World_Championship_Qualifiers"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Continuous_Spell_Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is a Spell Speed 1 Spell Card that stays on the field once it is activated. Spell Ruler, previously known as Magic Ruler, was the first TCG Booster Pack that contained Continuous Spell Cards."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Continuous Spell Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Continuous_Spell_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Spell_Card"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Continuous_Trap_Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Continuous Traps are Trap Cards that stay on the field after activation. The effect(s) of these cards will remain active until the owner cannot maintain the cost or condition(s) indicated on the card (if any) OR it is destroyed. One example of a Continuous Trap Card is \"Spellbinding Circle\", which effectively freezes an enemy monster on the field, so it can neither change battle position nor declare an attack."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Continuous Trap Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Continuous_Trap_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Trap_Card"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Counter_Trap_Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Counter Trap Cards are a Spell Speed 3. Only other Counter Trap Cards can be chained to a Counter Trap Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Counter Trap Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Counter_Trap_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Trap_Card"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Cyberse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cyberse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Cyberse"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#DEF",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The DEF (defense) points of a Monster."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Monster_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DEF"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Dark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Attribute" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Dark"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Deck",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A pile of cards that a Duelist can draw from during play. Each Duelist uses his or her own Main Deck in a Duel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Deck"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Deck"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Delux_Edition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Edition" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Deluxe Edition is a product in the TCG that was introduced by Konami as an attempt to replace Special Editions. It contains 9 Booster Packs of the set, a Beginner's guide, 2 Ultra Rare versions of Common or Rare cards from the set, 1 pack of 50 card sleeves, and 1 of 2 Super Rare preview cards from the next set. All promo cards are Limited Edition."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Delux Edition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Delux_Edition"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Dinosaur",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dinosaur"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Dinosaur"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Divine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Attribute" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Divine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Divine"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Draft_Format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Tournament_Format" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Draft Format is where players sit at tables in groups of 4-8, depending on the number participating, with their unopened booster packs on the table. Then when told to by the Tournament Organizer, each player picks up 1 of their booster packs and opens it, then takes 1 of the cards and sets it face-down in front of them to start a pile. After that, they pass the remaining cards to the left or right, dictated by the Tournament organizer. This continues until all 9 cards from each pack has been selected and no more cards are being passed around, then each player opens the next pack and repeats, passing the cards in the opposite direction. Once all packs have been used up, players separate to construct Decks with a minimum of 20 using the cards they've selected."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Draft Format"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Draft_Format"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Duel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Duel is a single game between 2 opposing players or teams, they Duel each other using a variety of Monster, Spell, and Trap Cards to defeat their opponent and win the game."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Duel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Duel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dublincore.org/2012/06/14/dctype#Event"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Duel_Terminal_Edition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Edition" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Duel Terminal Edition cards are dispensed exclusively from \"Duel Terminal\" arcade machines. They are identified by having \"DUEL TERMINAL\" printed where the card's edition would be. This indicates that the card is compatible with the \"Duel Terminal\"; only Duel Terminal Edition cards can be used at \"Duel Terminals\". Duel Terminal Edition cards also have a nearly invisible QR code printed in the back center of the card."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Duel Terminal Edition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Duel_Terminal_Edition"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Duelist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Duelist or a Player is anyone participating in a Duel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Duelist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Duelist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2000/10/swap/pim/contact#Person"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Duelist_League",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Tournament_Level" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A small tournament held at the local level (town, city, etc.)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Duelist League"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Duelist_League"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Earth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Attribute" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Earth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Earth"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Effect_Monster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Category" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Effect Monster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Effect_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Equip_Spell_Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is a Spell Card that is a card that is equipped to a face-up monster on the field. Equip Spell Cards are type of Equip Card; Equip Cards can either be Equip Spell Cards or Trap Cards that are treated as Equip Cards."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Equip Spell Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Equip_Spell_card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Spell_Card"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Fairy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fairy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Fairy"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Field_Spell_Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Field Spells have the advantage of being able to change the entire state of play for its controller's or for both players' side of the field. They are Spell Speed 1 and are placed on the Field Zone, apart from the Spell & Trap Zones."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Field Spell Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Field_Spell_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Spell_Card"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Fiend",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fiend"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Fiend"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Fire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Attribute" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fire"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Fire"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Fish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fish"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Fish"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Flip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Ability" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Flip monsters are Effect Monsters with the ability \"Flip\". They all have a Flip effect, although they may also have other effects in addition to their Flip effect."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Flip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Flip_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Fusion_Monster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Category" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Fusion Monster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Fusion_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Gemini",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Ability" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Gemini Monsters are Effect Monsters with the ability \"Gemini\". They have effects, but these effects must be \"unlocked\" by performing an additional Normal Summon on them while they are face-up on the field; until then, they are treated as Normal Monsters on the field and in the Graveyard (everywhere else they are treated as Effect Monsters)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gemini"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Gemini_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Ghost_Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ghost Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Ghost_Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Gold_Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gold Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Gold_Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Holofoil_Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Holofoil Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Holofoil_Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Holographic_Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Holographic Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Holographic_Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Insect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Insect"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Insect"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Light",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Attribute" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Light"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Light"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Limited_Edition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Edition" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Limited Edition is an edition of cards in the TCG, Korean OCG, and Asian-English OCG that is marked by the text \"Limited Edition\". It is not used in the Japanese, Japanese-Asian, and Chinese OCG."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Limited Edition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Limited_Edition"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Link_Monster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Category" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Link Monster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Link_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Machine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Machine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Machine"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Match",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Match is a best-of-three set of Duels.\n\nThe first Duelist to win two Duels is declared the winner of the Match. If a Duelist loses two Duels, they are considered to have lost the Match. If both Duelists have one loss in a Match and both receive a simultaneous Game Loss penalty, the Match is considered a Double Loss."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Match"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Match"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dublincore.org/2012/06/14/dctype#Event"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Mirror_Force",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Normal_Trap_Card" ],
+  "http://ontology.ethereal.cz/ygo#cardDescription" : [ {
+    "@language" : "en",
+    "@value" : "When your opponent declares an Attack; destroy all Attack-Position monster your opponent controls."
+  } ],
+  "http://ontology.ethereal.cz/ygo#cardName" : [ {
+    "@language" : "en",
+    "@value" : "Mirror Force"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasRarity" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Gold_Rare"
+  }, {
+    "@id" : "http://ontology.ethereal.cz/ygo#Prismatic_Secret_Rare"
+  }, {
+    "@id" : "http://ontology.ethereal.cz/ygo#Ultimate_Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mirror Force"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Monster_Ability",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Classification of Effect Monster Cards. Abilities are listed in the same line as a monster's Type, separated by a slash (but are not the only classification that can be listed this way)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Monster Ability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Ability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Monster_Attribute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Attributes are essentially the \"elemental\" groups for each Monster Card. There are different cards made to support each \"element\", and there are popular monsters of each kind. It is possible for a monster to be considered part of multiple Attributes via a card effect, such the effect of \"Elemental Mistress Doriado\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Monster Attribute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Attribute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Monster_Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Monster cards represent monsters that players battle against each other or directly against either player during the Battle Phase. Monsters are the main focus of Duel Monsters. Monster Cards are differentiated by their names, Type; Attribute; ATK; DEF; Level (or Rank or Link Rating). Monster Cards can be subdivided into Normal Monsters, Effect Monsters, Ritual Monsters, Fusion Monsters, Synchro Monsters, Xyz Monsters, Pendulum Monsters, Link Monsters and Token Monsters, each with a distinctive colored card frame to differentiate them."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Monster Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Monster_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Monster_Category",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Monster Cards can be subdivided into Normal Monsters, Effect Monsters, Ritual Monsters, Fusion Monsters, Synchro Monsters, Xyz Monsters, Pendulum Monsters, Link Monsters and Token Monsters, each with a distinctive colored card frame to differentiate them."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Monster Category"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Monster_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Monster_Type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is a characteristic of a Monster Card. All monsters have one Type, such that monsters of the same Type can be grouped together (in a similar way to Attributes) and support cards can grant various effects to a specific Type of monster."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Monster Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Mystical_Space_Typhoon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Quick-Play_Spell_Card" ],
+  "http://ontology.ethereal.cz/ygo#cardDescription" : [ {
+    "@language" : "en",
+    "@value" : "Target one Spell or Trap Card ont the Field; destroy it."
+  } ],
+  "http://ontology.ethereal.cz/ygo#cardName" : [ {
+    "@language" : "en",
+    "@value" : "Mystical Space Typhoon"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasEdition" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Unlimited_Edition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mystical Space Typhoon"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#National_Tournament",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Tournament_Level" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A tournament held at the national level."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "National Tournament"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/National_Tournament"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Normal_Monster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Category" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Normal Monster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Normal_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Normal_Parallel_Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Normal Parallel Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Normal_Parallel_Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Normal_Spell_Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is a Spell Speed 1 Spell Card, so it cannot chain to other effects, even those of other Normal Spell Cards, but can be chained to by Spell Speed 2 or Spell Speed 3 cards."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Normal Spell Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Normal_Spell_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Spell_Card"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Normal_Trap_Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Normal Traps are Spell Speed 2. They can be activated during either player's turn as long as it wasn't set that turn. The effects of certain Normal Trap Cards behave like Equip Cards, but the card is still considered a Normal Trap Card."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Normal Trap Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Normal_Trap_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Trap_Card"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Pendulum_Monster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Category" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pendulum Monster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Pendulum_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Plant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Plant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Plant"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Premature_Burial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Equip_Spell_Card" ],
+  "http://ontology.ethereal.cz/ygo#cardDescription" : [ {
+    "@language" : "en",
+    "@value" : "Activate this card by paying 800 LP, then target 1 monster in your Graveyard; Special Summon that target in Attack Position and equip it with this card. When this card is destroyed, destroy the equipped monster."
+  } ],
+  "http://ontology.ethereal.cz/ygo#cardName" : [ {
+    "@language" : "en",
+    "@value" : "Premature Burial"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasRarity" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Secret_Ultra_Rare"
+  }, {
+    "@id" : "http://ontology.ethereal.cz/ygo#Super_Parallel_Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Premature Burial"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Prismatic_Secret_Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Prismatic Secret Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Prismatic_Secret_Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Psychic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Psychic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Psychic"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Pyro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Pyro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Pyro"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Quick-Play_Spell_Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Quick-play Spells are a type of Spell Card that are Spell Speed 2. The turn player can activate Quick-Play Spell Cards from their hand during any Phase of their turn; either player can activate Set Quick-Play Spell cards during any Phase in either player's turn, except during the turn they are Set."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Quick-Play Spell Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Quick-Play_Spell_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Spell_Card"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Raigeki",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Normal_Spell_Card" ],
+  "http://ontology.ethereal.cz/ygo#cardDescription" : [ {
+    "@language" : "en",
+    "@value" : "Destroy all monsters your opponent controls."
+  } ],
+  "http://ontology.ethereal.cz/ygo#cardName" : [ {
+    "@language" : "en",
+    "@value" : "Raigeki"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasEdition" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Limited_Edition"
+  }, {
+    "@id" : "http://ontology.ethereal.cz/ygo#Standard_Edition"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasRarity" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Secret_Ultra_Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Raigeki"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Regional_Tournament",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Tournament_Level" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A tournament held at regional level."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Regional Tournament"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Regional_Tournament"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Reptile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Reptile"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Reptile"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Ritual_Monster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Category" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ritual Monster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Ritual_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Ritual_Spell_Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Ritual Spells are a type of Spell Card used to Ritual Summon Ritual Monsters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ritual Spell Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Ritual_Spell_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Spell_Card"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Rock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rock"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Rock"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Royal_Decree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Continuous_Trap_Card" ],
+  "http://ontology.ethereal.cz/ygo#cardDescription" : [ {
+    "@language" : "en",
+    "@value" : "Negate all other Trap effects on the field."
+  } ],
+  "http://ontology.ethereal.cz/ygo#cardName" : [ {
+    "@language" : "en",
+    "@value" : "Royal Decree"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasRarity" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Holographic_Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Royal Decree"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Sea_Serpent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sea Serpent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Sea_Serpent"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Secret_Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Secret Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Secret_Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Secret_Ultra_Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Secret Ultra Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Secret_Ultra_Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Short_Print",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Short Print"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Short_Print"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Solemn_Judgement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Counter_Trap_Card" ],
+  "http://ontology.ethereal.cz/ygo#cardDescription" : [ {
+    "@language" : "en",
+    "@value" : "When a monster would be Summoned, OR a Spell/Trap Card is activated: Pay half your Life Points; negate the Summon or activation, and if you do, destroy that card."
+  } ],
+  "http://ontology.ethereal.cz/ygo#cardName" : [ {
+    "@language" : "en",
+    "@value" : "Solemn Judgement"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasEdition" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Limited_Edition"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasRarity" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Secret_Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Solemn Judgement"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Spell_Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Spell cards are cards with green-colored borders that have various effects to alter the play of the game. Often, a Spell Card has a single effect to provide a bonus to the user or a weakness to the opponent. Unlike Trap Cards, Spell Cards have the advantage of being able to be played without having to be Set first. Spell Cards, except Quick-Play Spell Cards, may be activated during the same turn it was Set."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Spell Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Spell_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Spellcaster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Spellcaster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Spellcaster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Spirit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Ability" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Spirit Monsters are Effect Monsters with the ability \"Spirit\". With the exception of the Special Summon Monster \"Yamato-no-Kami\" and the \"Shinobird\" Ritual Monsters, they cannot be Special Summoned and each have an effect that returns them to their owner's hand during the End Phase of the turn they are Normal Summoned or flipped face-up (or the turn they are Special Summoned in case of Spirit monsters that must be Special Summoned)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Spirit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Spirit_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Standard_Edition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Edition" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Standard Edition is an internal description used by the Yu-Gi-Oh! Wikia to refer to the majority of OCG cards that would ordinarily be called \"Unlimited Edition\" in the TCG. Because the Japanese, Japanese-Asian, and Chinese OCG do not have a \"1st Edition\", we need a way of differentiating these and \"Replica\" cards. \"Standard Edition\" cards lack edition information in their filename."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Standard Edition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Standard_Edition"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Super_Parallel_Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Super Parallel Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Super_Parallel_Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Super_Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Super Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Super_Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Super_Short_Print",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Super Short Print"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Super_Short_Print"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Synchro_Monster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Category" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Synchro Monster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Synchro_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Thunder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Thunder"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Thunder"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Token_Monster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Category" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Token Monster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Token_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Toon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Ability" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Toon monsters are cartoonized counterparts of existing monsters, having some reliance on the card \"Toon World\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Toon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Toon_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Tournament",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Tournament is an event where Duelists of varying skill and ability gather, to determine who ranks the best amongst them. There are two primary levels of Tournaments:"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tournament"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Tournament"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dublincore.org/2012/06/14/dctype#Event"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Tournament_Format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Tourmaments utilize one of these two formats:\n\nTraditional Format\nAdvanced Format"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tournament Format"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Tournament_Level",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Tournaments can appear on several levels. usually based on its size and location."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tournament Level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Traditional_Format",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Tournament_Format" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "In the TCG, the Traditional Format was created around October 2004 as a counterpart to the then newly-introduced Advanced Format and its Forbidden list, since some players, especially those that had been playing for longer, still wanted to play with cards that had become Forbidden. The Traditional Format does not have a Forbidden List, instead having only Limited and Semi-Limited Lists, with all of the Forbidden cards from the Advanced Format being placed in Limited instead. The two formats are otherwise identical."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Traditional Format"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Traditional_Format"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Trap_Card",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Trap cards are cards with purple-colored borders that have various effects. A Trap Card must first be Set and can only be activated after the current turn has finished. After that, it may be activated during either player's turn. Trap Cards are Spell Speed 2, with the exception of Counter Trap Cards, which are Spell Speed 3."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Trap Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Trap_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Tuner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Ability" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Tuner Monsters are monsters with \"Tuner\" listed on the Type/Ability line. They are required for the Synchro Summon of a Synchro Monster. Normal, Fusion, Effect, Pendulum, and Synchro Monsters themselves can all be Tuner monsters, although some card effects can treat non-Tuner monsters as Tuners. Flip and Union monsters and Special Summon Monsters can also be Tuner monsters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tuner"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Tuner_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Twilight_Edition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Edition" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Twilight Edition: Light & Dark, also known as simply Twilight Edition, is a set which combines the best LIGHT and DARK monsters from 2008 and 2009."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Twilight Edition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Twilight_Edition"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Ultimate_Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ultimate Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Ultimate_Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Ultra_Parallel_Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ultra Parallel Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Ultra_Parallel_Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Ultra_Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ultra Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Ultra_Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Ultra_Secret_Rare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Rarity" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ultra Secret Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Ultra_Secret_Rare"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Umi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Field_Spell_Card" ],
+  "http://ontology.ethereal.cz/ygo#cardDescription" : [ {
+    "@language" : "en",
+    "@value" : "Increase the ATK and DEF of all Fish, Sea Serpent, Thunder, and Aqua-Type monsters by 200 points. Decrease the ATK and DEF of all Machine and Pyro-Type monsters by 200 points."
+  } ],
+  "http://ontology.ethereal.cz/ygo#cardName" : [ {
+    "@language" : "en",
+    "@value" : "Premature Burial"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasEdition" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Unlimited_Edition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Umi"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Union",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Ability" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Union monsters are Effect Monsters with the ability \"Union\". Each Union monster has an effect that allows it to equip itself to a monster as an Equip Spell Card or unequip itself to Special Summon itself to a Monster Zone."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Union Ability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Union_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Unlimited_Edition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Card_Edition" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Unlimited Edition is the edition of cards that have no edition text in the TCG, Korean OCG, and Asian-English OCG. In the Japanese, Japanese-Asian, and Chinese OCG, cards are not printed with editions (other than Duel Terminal Edition), so cards lacking edition text are referred to as Standard Edition instead."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Unlimited Edition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Unlimited_Edition"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Valhalla,_Hall_of_the_Fallen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Continuous_Spell_Card" ],
+  "http://ontology.ethereal.cz/ygo#cardDescription" : [ {
+    "@language" : "en",
+    "@value" : "Once per turn: You can Special Summon 1 Fairy-Type monster from your hand. You must control no monsters to activate and to resolve this effect."
+  } ],
+  "http://ontology.ethereal.cz/ygo#cardName" : [ {
+    "@language" : "en",
+    "@value" : "Valhalla, Hall of the Fallen"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasEdition" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Delux_Edition"
+  }, {
+    "@id" : "http://ontology.ethereal.cz/ygo#1st_Edition"
+  } ],
+  "http://ontology.ethereal.cz/ygo#hasRarity" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Holographic_Rare"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Valhalla, Hall of the Fallen"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Venue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A place at which a tournament is held. Bigger events require bigger Venues."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Venue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://dbpedia.org/ontology/Place"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Warrior",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Warrior"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Warrior"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Water",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Attribute" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Water"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Water"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Wind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Attribute" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wind"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Wind"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Winged_Beast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Winged Beast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Winged_Beast"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#World_Championship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Tournament_Level" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A tournament held at the world-wide level."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "World Championship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/World_Championship"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Wyrm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wyrm"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Wyrm"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#XYZ_Monster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Category" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "XYZ Monster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/XYZ_Monster"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#YCS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Tournament_Level" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Yu-Gi-Oh! Championship Series, often abbreviated as YCS, is a tournament series that replaced the Shonen Jump Championship Series. A YCS is a large two day tournament which takes place once a month over a weekend in the United States of America, Europe, Canada and South America."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "YCS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/YCS"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#Zombie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://ontology.ethereal.cz/ygo#Monster_Type" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Zombie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://yugioh.wikia.com/wiki/Zombie"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#cardArchetype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The archetype of a card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "card archetype"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#cardCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The total number of Cards in a Deck."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Deck"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "card count"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#cardDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Card Text of Card Description of a Card."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "card description"
+  }, {
+    "@language" : "en",
+    "@value" : "card text"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#cardImage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An URL refering to a visualisation of the Card."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "card image"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#cardLimit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The number of Cards allowed in a Deck"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "card limit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#cardName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The name of the Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "card name"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#cardSeriesNumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The unique identificator number of a Card."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "card series number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#cardSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The name of the card set which a Card comes from."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "card set"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#cossyID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Cossy ID of a Duelist."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Duelist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cossy ID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#deckArchetype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The archetype of a Deck"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Deck"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "deck archetype"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#deckRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The rating of a Deck. Usually determined by its strengths."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Deck"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "deck rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#duelResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A duel result. Either DRAW or Regular Win-Lose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Duel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "duel result"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#duelistRanking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The ranking of a Duelist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Duelist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "duelist ranking"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#hasEdition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has edition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card_Edition"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#hasMonsterAbility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Monster_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has monster ability"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Monster_Ability"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#hasMonsterAttribute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Monster_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has monster attribute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Monster_Attribute"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#hasMonsterCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Monster_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has monster category"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Monster_Category"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#hasMonsterType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Monster_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has monster type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Monster_Type"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#hasRarity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has rarity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card_Rarity"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#hasTournamentFormat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Tournament"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has tournament format"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Tournament_Format"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#hasTournamentLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Tournament"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has tournament level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Tournament_Level"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#isPartOfMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Duel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is part of match"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Match"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#isPartOfTournament",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Match"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is part of tournament"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Tournament"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#isUsedInDeck",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is used in deck"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Deck"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#level",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Level of a Monster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Monster_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "level"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#linkRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Link ranking of a Link Monster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Monster_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "link ranking"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#matchResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A match result. Either DRAW or Regular Win-Lose."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Match"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "match result"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#monsterRank",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The rank of a monster"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Monster_Card"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "monster rank"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#participatedInTournament",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Duelist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "participated in tournament"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Tournament"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#playedAgainst",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Duelist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "played against"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Duelist"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#playedInDuel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Duelist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "played in duel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Duel"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#playedInMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Duelist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "played in match"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Match"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo#usesDeck",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Duelist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "uses deck"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Deck"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo/tookPlaceAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "the place where the tournament or game is held"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://dublincore.org/2012/06/14/dctype#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "took place at"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Venue"
+  } ]
+}, {
+  "@id" : "http://ontology.ethereal.cz/ygo/venue_address",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The address or location of the venue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://ontology.ethereal.cz/ygo#Venue"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "venue address"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/subject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/image",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/10/swap/pim/contact#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#versionIRI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
