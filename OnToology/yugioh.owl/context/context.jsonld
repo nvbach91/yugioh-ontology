@@ -1,0 +1,291 @@
+{
+  "@context" : {
+    "versionIRI" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionIRI"
+    },
+    "Monster_Type" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Monster_Type"
+    },
+    "abstract" : {
+      "@id" : "http://purl.org/dc/elements/1.1/abstract"
+    },
+    "cardLimit" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#cardLimit",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Tournament_Format" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Tournament_Format"
+    },
+    "matchResult" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#matchResult",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "deckRating" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#deckRating",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "cossyID" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#cossyID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "DEF" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#DEF",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Quick-Play_Spell_Card" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Quick-Play_Spell_Card"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "cardArchetype" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#cardArchetype"
+    },
+    "hasTournamentFormat" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#hasTournamentFormat",
+      "@type" : "@id"
+    },
+    "Counter_Trap_Card" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Counter_Trap_Card"
+    },
+    "Venue" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Venue"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "participatedInTournament" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#participatedInTournament",
+      "@type" : "@id"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Duelist" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Duelist"
+    },
+    "cardSeriesNumber" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#cardSeriesNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasMonsterAbility" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#hasMonsterAbility",
+      "@type" : "@id"
+    },
+    "Normal_Spell_Card" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Normal_Spell_Card"
+    },
+    "Monster_Card" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Monster_Card"
+    },
+    "tookPlaceAt" : {
+      "@id" : "http://ontology.ethereal.cz/ygo/tookPlaceAt",
+      "@type" : "@id"
+    },
+    "hasMonsterAttribute" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#hasMonsterAttribute",
+      "@type" : "@id"
+    },
+    "playedInMatch" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#playedInMatch",
+      "@type" : "@id"
+    },
+    "Event" : {
+      "@id" : "http://dublincore.org/2012/06/14/dctype#Event"
+    },
+    "hasEdition" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#hasEdition",
+      "@type" : "@id"
+    },
+    "ATK" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#ATK",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Person" : {
+      "@id" : "http://www.w3.org/2000/10/swap/pim/contact#Person"
+    },
+    "Tournament_Level" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Tournament_Level"
+    },
+    "Card" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Card"
+    },
+    "isPartOfMatch" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#isPartOfMatch",
+      "@type" : "@id"
+    },
+    "usesDeck" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#usesDeck",
+      "@type" : "@id"
+    },
+    "linkRating" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#linkRating",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Card_Rarity" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Card_Rarity"
+    },
+    "isUsedInDeck" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#isUsedInDeck",
+      "@type" : "@id"
+    },
+    "duelistRanking" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#duelistRanking",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Monster_Attribute" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Monster_Attribute"
+    },
+    "monsterRank" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#monsterRank",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "level" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#level",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Continuous_Spell_Card" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Continuous_Spell_Card"
+    },
+    "hasMonsterCategory" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#hasMonsterCategory",
+      "@type" : "@id"
+    },
+    "hasTournamentLevel" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#hasTournamentLevel",
+      "@type" : "@id"
+    },
+    "duelResult" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#duelResult",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "cardDescription" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#cardDescription"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "playedAgainst" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#playedAgainst",
+      "@type" : "@id"
+    },
+    "cardName" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#cardName"
+    },
+    "Place" : {
+      "@id" : "http://dbpedia.org/ontology/Place"
+    },
+    "hasMonsterType" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#hasMonsterType",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "hasRarity" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#hasRarity",
+      "@type" : "@id"
+    },
+    "Tournament" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Tournament"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher"
+    },
+    "Monster_Category" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Monster_Category"
+    },
+    "cardSet" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#cardSet"
+    },
+    "cardImage" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#cardImage",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "Deck" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Deck"
+    },
+    "venue_address" : {
+      "@id" : "http://ontology.ethereal.cz/ygo/venue_address",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Field_Spell_Card" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Field_Spell_Card"
+    },
+    "Equip_Spell_Card" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Equip_Spell_Card"
+    },
+    "Monster_Ability" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Monster_Ability"
+    },
+    "isPartOfTournament" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#isPartOfTournament",
+      "@type" : "@id"
+    },
+    "Spell_Card" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Spell_Card"
+    },
+    "deckArchetype" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#deckArchetype"
+    },
+    "Normal_Trap_Card" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Normal_Trap_Card"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "cardCount" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#cardCount",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Card_Edition" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Card_Edition"
+    },
+    "Ritual_Spell_Card" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Ritual_Spell_Card"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "Duel" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Duel"
+    },
+    "Continuous_Trap_Card" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Continuous_Trap_Card"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "Match" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Match"
+    },
+    "playedInDuel" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#playedInDuel",
+      "@type" : "@id"
+    },
+    "Trap_Card" : {
+      "@id" : "http://ontology.ethereal.cz/ygo#Trap_Card"
+    }
+  }
+}
