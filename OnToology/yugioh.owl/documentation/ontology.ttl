@@ -15,7 +15,8 @@
                                    <http://purl.org/dc/elements/1.1/subject> "Trading Card Game, Tournament, Ontology, Semantic SEO, RDFa, Linked Data, RDF, Semantic Web"@en ;
                                    <http://purl.org/dc/elements/1.1/title> "Yu-Gi-Oh! TCG Ontology"@en ;
                                    <http://purl.org/dc/terms/created> "2020-04-24"^^xsd:date ;
-                                   <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/3.0/> ;
+                                   <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/3.0/> ,
+                                                                      "https://creativecommons.org/licenses/by/3.0/" ;
                                    <http://purl.org/dc/terms/publisher> "University of Economics, Prague, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering" ;
                                    <http://purl.org/vocab/vann/preferredNamespacePrefix> "ygo" ;
                                    <http://purl.org/vocab/vann/preferredNamespaceUri> "http://ontology.ethereal.cz/ygo#" ;
