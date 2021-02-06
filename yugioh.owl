@@ -14,7 +14,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:schema="http://schema.org/"
-     xmlns:dcterms="http://purl.org/dc/terms/">
+     xmlns:dct="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://ontology.ethereal.cz/ygo">
         <owl:versionIRI rdf:resource="https://w3id.org/def/YuGiOhTCGOntology"/>
         <dc:abstract xml:lang="en">Abstract: The Yu-Gi-Oh! Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dc:abstract>
@@ -23,9 +23,10 @@
         <dc:description xml:lang="en">The Yu-Gi-Oh! Ontology, described using W3C RDF Schema and the Web Ontology Language OWL.</dc:description>
         <dc:subject xml:lang="en">Trading Card Game, Tournament, Ontology, Semantic SEO, RDFa, Linked Data, RDF, Semantic Web</dc:subject>
         <dc:title xml:lang="en">Yu-Gi-Oh! TCG Ontology</dc:title>
-        <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-24</dcterms:created>
-        <dcterms:publisher>University of Economics, Prague, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering</dcterms:publisher>
-        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-24</dct:created>
+        <dct:publisher>University of Economics, Prague, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering</dct:publisher>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
+        <dct:license>https://creativecommons.org/licenses/by/3.0/</dct:license>
         <vann:preferredNamespacePrefix>ygo</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://ontology.ethereal.cz/ygo#</vann:preferredNamespaceUri>
         <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://ontology.ethereal.cz/src/ygo-ontology.png</schema:image>
