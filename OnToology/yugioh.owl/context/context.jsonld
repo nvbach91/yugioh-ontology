@@ -1,8 +1,5 @@
 {
   "@context" : {
-    "versionIRI" : {
-      "@id" : "http://www.w3.org/2002/07/owl#versionIRI"
-    },
     "Monster_Type" : {
       "@id" : "http://ontology.ethereal.cz/ygo#Monster_Type"
     },
