@@ -26,7 +26,6 @@
         <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-24</dct:created>
         <dct:publisher>University of Economics, Prague, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering</dct:publisher>
         <dct:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
-        <dct:license>https://creativecommons.org/licenses/by/3.0/</dct:license>
         <vann:preferredNamespacePrefix>ygo</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://ontology.ethereal.cz/ygo#</vann:preferredNamespaceUri>
         <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://ontology.ethereal.cz/src/ygo-ontology.png</schema:image>
