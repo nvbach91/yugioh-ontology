@@ -21,7 +21,6 @@
         <dc:title xml:lang="en">Yu-Gi-Oh! TCG Ontology</dc:title>
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-24</terms:created>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
-        <terms:license>https://creativecommons.org/licenses/by/3.0/</terms:license>
         <terms:publisher>University of Economics, Prague, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering</terms:publisher>
         <vann:preferredNamespacePrefix>ygo</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://ontology.ethereal.cz/ygo#</vann:preferredNamespaceUri>

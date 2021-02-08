@@ -121,8 +121,6 @@
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://creativecommons.org/licenses/by/3.0/"
-  }, {
-    "@value" : "https://creativecommons.org/licenses/by/3.0/"
   } ],
   "http://purl.org/dc/terms/publisher" : [ {
     "@value" : "University of Economics, Prague, Czech Republic. Faculty of Informatics and Statistics. Department of Knowledge and Information Engineering"
